@@ -236,7 +236,7 @@ if ($type == 'join' || $command == 'Help') {
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'dev') {
     $text .= " \n";
-    $text .= " \n";
+    $text .= " 􀀹⚡⚡⚡⚡⚡􀀹\n";
     $text .= "=====[HALLO VoLS]=====";
     $text .= " \n";
     $text .= "Terima Kasih Atas Invite nya\n";
