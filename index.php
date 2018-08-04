@@ -236,13 +236,15 @@ if ($type == 'join' || $command == 'Help') {
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'dev') {
     $text .= " \n";
-    $text .= " 􀀹⚡⚡⚡⚡⚡􀀹\n";
-    $text .= "=====[HALLO VoLS]=====";
+    $text .= " 􀀹⚡⚡⚡⚡⚡⚡⚡⚡⚡􀀹\n";
+    $text .= "======[HALLO VoLS]======";
     $text .= " \n";
     $text .= "Terima Kasih Atas Invite nya\n";
     $text .= "=======================\n";	
     $text .= "=>Developer BOT ketik Creator\n";
-    $text .= "=>Jangan Lupa BOTnya di-Add Friend dulu ya 􀀅";
+    $text .= "=>Jangan Lupa BOTnya di-Add\n";
+    $text .= "  dulu ya 􀀅\n";
+    $text .= " \n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
