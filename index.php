@@ -235,12 +235,14 @@ if ($type == 'join' || $command == 'Help') {
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'dev') {
-    $text .= "====[HALLO VoLS]====";
+    $text .= " \n";
+    $text .= " \n";
+    $text .= "=====[HALLO VoLS]=====";
     $text .= " \n";
     $text .= "Terima Kasih Atas Invite nya\n";
     $text .= "=======================\n";	
     $text .= "=>Developer BOT ketik Creator\n";
-	$text .= "=>Jangan Lupa BOTnya di-Add Friend dulu ya\n";
+	$text .= "=>Jangan Lupa BOTnya di-Add Friend dulu ya \uDBC0\uDC05 \n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -257,8 +259,8 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "      >VoLS<\n";	
-    $text .= "   VoLS OFFICIAL";
+    $text .= "            >VoLS<\n";	
+    $text .= "        VoLS OFFICIAL";
     $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
