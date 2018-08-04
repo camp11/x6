@@ -771,7 +771,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => '',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533387277/VOLS/welcome',
   'altText' => 'WELCOME TO VoLS',
   'baseSize' => 
   array (
@@ -782,8 +782,8 @@ if($message['type']=='text') {
   array (
     0 => 
     array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/SAS_OFFICIAL',
+      'type' => 'message',
+      'text' => 'VoLS',
       'area' => 
       array (
         'x' => 0,
@@ -857,77 +857,185 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_noerhayati3',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Firman_ARCA',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Snooviee_',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       3 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Pamz_C43m',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       4 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Novannata_',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       5 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Arta_',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
       6 => 
       array (
-        'imageUrl' => '',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'http://smule.com/_SAS_Faifi',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
         ),
       ),
     ),
   ),
 )
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'VoLS' || $command == 'Vols'|| $command == 'vols'|| $command == 'VOLS' ) {
+
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'imagemap',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533387587/VOLS/logo',
+  'altText' => 'VOLS OFFICIAL',
+  'baseSize' => 
+  array (
+    'height' => 1040,
+    'width' => 1040,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'uri',
+      'linkUri' => 'https://www.smule.com/VoLS_OFFICIAL',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Admin1' || $command == 'admin1' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'MANAGEMENT VoLS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
+        ),
+      ),
+    ),
+  ),
+),
+                array (
+  'type' => 'template',
+  'altText' => 'MANAGEMENT VoLS',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
+        ),
+      ),
+      1 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1526286335/line/EVENT/NOTAVAILABLE/1040.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/VoLS_OFFICIAL',
+        ),
+      ),
+    ),
+  ),
+),
             )
         );
     }
