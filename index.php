@@ -242,7 +242,7 @@ if ($type == 'join' || $command == 'dev') {
     $text .= "Terima Kasih Atas Invite nya\n";
     $text .= "=======================\n";	
     $text .= "=>Developer BOT ketik Creator\n";
-    $text .= "=>Jangan Lupa BOTnya di-Add Friend dulu ya \uDBC0\uDC05";
+    $text .= "=>Jangan Lupa BOTnya di-Add Friend dulu ya 􀀅";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
