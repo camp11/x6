@@ -259,8 +259,8 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "            >VoLS<\n";	
-    $text .= "        VoLS OFFICIAL";
+    $text .= "                >VoLS<\n";	
+    $text .= "            VoLS OFFICIAL";
     $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
@@ -277,8 +277,8 @@ if ($type == 'text' || $command == 'Wc') {
 }
 #-------------------------[Function]-------------------------#
 //show menu, saat join dan command,menu
-if ($type == 'text' || $command == 'key') {
-    $text .= "==[Main Keywords]==";
+if ($type == 'text' || $command == 'Key') {
+    $text .= "==[Additional Keywords]==";
     $text .= "> \n";
     $text .= "> Bot\n"; 
     $text .= "> Pagi\n";
