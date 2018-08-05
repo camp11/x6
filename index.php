@@ -978,7 +978,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533452401/VOLS/1',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533455303/VOLS/1',
   'altText' => 'OWNER VoLS',
   'baseSize' => 
   array (
