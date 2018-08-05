@@ -897,7 +897,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'OWNER','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'OWNER',
         ),
       ),
@@ -907,7 +907,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'LEADER','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'LEADER',
         ),
       ),
@@ -917,7 +917,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'DESIGN GRAFIS','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'DESIGN',
         ),
       ),
@@ -938,7 +938,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'ADMIN','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'ADMIN1',
         ),
       ),
@@ -948,7 +948,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'ADMIN','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'ADMIN2',
         ),
       ),
@@ -958,7 +958,7 @@ if($message['type']=='text') {
         'action' => 
         array (
           'type' => 'message',
-          'label' => 'ADMIN','view detail',
+          'label' => 'VIEW DETAIL',
           'text' => 'ADMIN3',
         ),
       ),
