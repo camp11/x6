@@ -831,7 +831,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/VoLS_OFFICIAL',
+      'linkUri' => 'https://www.smule.com/Team_VoLS',
       'area' => 
       array (
         'x' => 520,
